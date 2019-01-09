@@ -1,0 +1,999 @@
+ya9438@atl0lsmsp001:~> history
+    1  sudo zypper install cmake
+    2  sudo zypper install cmake -y
+    3  sudo zypper install cmake
+    4  sudo zypper install cmake python-dev python-pip libffi-dev libssh2-1-devzlib1g-dev libssl-dev pkg-config libhttp-parser-dev
+    5  sudo zypper install python-pip
+    6  sudo zypper install cmake python-dev python-pip libffi-dev libssh2-1-devzlib1g-dev libssl-dev pkg-config libhttp-parser-dev
+    7  sh bootstrap-salt.sh -h
+    8  curl -L https://bootstrap.saltstack.com | sudo sh
+    9  salt '*' test.ping
+   10  systemctl list-unit --type service
+   11  systemctl list-units --type service
+   12  history
+   13  python --version
+   14  sudo zypper install salt-master
+   15  systemctl list-units --type service
+   16  sudo /etc/init.d/salt-master start
+   17  systemctl list-units --type service
+   18  salt '*' test.ping
+   19  sudo su salt '*' test.ping
+   20  sudo salt '*' test.ping
+   21  sudo zypper install salt-api
+   22  salt-run --versions-report
+   23  salt '*' test.ping
+   24  systemctl list-units --type service
+   25  systemctl restart service salt-master
+   26  salt-run --versions-report
+   27  sudo zypper install python-pygit2
+   28  history
+   29  curl -o bootstrap-salt.sh -L https://bootstrap.saltstack.com
+   30  curl -L https://bootstrap.saltstack.com | sudo sh
+   31  salt --versions-report
+   32  salt '*' test.ping
+   33  salt-master --version
+   34  salt-minion --version
+   35  cd /etc
+   36  ls
+   37  cd salt
+   38  sudo salt '*' test.ping
+   39  salt --versions-report
+   40  salt-run --versions-report
+   41  sudo /etc/init.d/salt-master stop
+   42  cd..
+   43  sudo /etc/init.d/salt-master start
+   44  history
+   45  curl -L https://bootstrap.saltstack.com | sudo sh -M -x python3 stable 2018.3.2
+   46  curl -L https://bootstrap.saltstack.com -M -x python3 stable 2018.3.2 | sudo sh
+   47  sh bootstrap-salt.sh -x python3 stable 2018.3.2
+   48  curl -L https://bootstrap.saltstack.com | sudo sh bootstrap-salt.sh -x python3 stable 2018.3.2
+   49  curl -L https://bootstrap.saltstack.com | sudo sh -x python3 stable 2018.3.2
+   50  echo $pwd
+   51  pwd
+   52  $pwd
+   53  ls
+   54  ls -al
+   55  cd /etc
+   56  ls
+   57  cd salt
+   58  pwd
+   59  sudo su
+   60  ls
+   61  cd..
+   62  ls
+   63  cd etc
+   64  ls
+   65  cd init.d
+   66  ls
+   67  ls -al
+   68  cd..
+   69  cd ..
+   70  cd ~/
+   71  ls
+   72  wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
+   73  ls
+   74  ls -la
+   75  chmod +x bootstrap-salt.sh
+   76  ls -la
+   77  cat ./bootstrap-salt.sh
+   78  cat ./bootstrap-salt.sh | less
+   79  ls
+   80  ./bootstrap-salt.sh --help
+   81  sudo ./bootstrap-salt.sh --help
+   82  chmod 644 bootstrap-salt.sh
+   83  chmod 770 bootstrap-salt.sh
+   84  sudo ./bootstrap-salt.sh --help
+   85  ls -la
+   86  chmod 777 bootstrap-salt.sh
+   87  ls -la
+   88  sudo ./bootstrap-salt.sh --help
+   89  ./bootstrap-salt.sh --help
+   90  ./bootstrap-salt.sh -h
+   91  sudo ./bootstrap-salt.sh -h
+   92  sh ./bootstrap-salt.sh -h
+   93  sh ./bootstrap-salt.sh -M -x python3 stable 2018.3.2
+   94  salt -versions-report
+   95  salt --versions-report
+   96  sh ./bootstrap-salt.sh -h
+   97  sh ./bootstrap-salt.sh -h | grep uninstall
+   98  sh ./bootstrap-salt.sh -h | grep
+   99  sh ./bootstrap-salt.sh -M -x python3 stable 2018.3.2 -U
+  100  sh ./bootstrap-salt.sh -U -M -x python3 stable 2018.3.2
+  101  sudo sh ./bootstrap-salt.sh -U -M -x python3 stable 2018.3.2
+  102  sudo sh ./bootstrap-salt.sh -U -M -x python3 stable
+  103  salt --versions-report
+  104  salt-master --version
+  105  salt-minion --version
+  106  sudo zypper install salt-master
+  107  sudo zypper update salt-master
+  108  sudo zypper repose
+  109  sudo zypper repos
+  110  zypper addrepo http://download.opensuse.org/repositories/systemsmanagement:/saltstack/SLE_12/systemsmanagement:saltstack.repo
+  111  sudo su
+  112  salt --versions-report
+  113  sudo /etc/init.d/salt-master start
+  114  systemctl enable salt-master.service
+  115  sudo /etc/init.d/salt-master start
+  116  sudo /etc/init.d/salt-master startsudo sussud
+  117  zypper ar http://download.opensuse.org/repositories/systemsmanagement:/saltstack/SLE_12.3/systemsmanagement:saltstack.repo
+  118  sudo zypper ar http://download.opensuse.org/repositories/systemsmanagement:/saltstack/SLE_12.3/systemsmanagement:saltstack.repo
+  119  sudo zypper ar http://download.opensuse.org/repositories/systemsmanagement:/saltstack/SLE_12_SP3/systemsmanagement:saltstack.repo
+  120  sudo zypper update
+  121  zypper install salt salt-master salt-minion
+  122  sudo zypper install salt salt-master salt-minion
+  123  sudo zypper uninstall salt salt-master salt-minion
+  124  sudo zypper remove salt salt-master salt-minion
+  125  sudo zypper install salt salt-master salt-minion
+  126  zypper repo
+  127  zypper repos
+  128  sudo zypper repos
+  129  sudo zypper install --help
+  130  sudo zypper install salt salt-master salt-minion --from 5
+  131  sudo zypper install --from 5 salt salt-master salt-minion
+  132  sudo zypper install --from 4 salt salt-master salt-minion
+  133  salt-call --local test.ping
+  134  sudo salt-call --local test.ping
+  135  zypper --help
+  136  sudo zypper services
+  137  sudo zypper services ls
+  138  sudo zypper services --help
+  139  service
+  140  sudo service --list-all
+  141  sudo service --all
+  142  sudo /usr/sbin/service
+  143  sudo /usr/sbin/service --status-all
+  144  pip install pygit2
+  145  zypper search pip
+  146  sudo zypper search pip
+  147  sudo zypper install python-pip
+  148  pip install pygit2
+  149  pip install --upgrade pip
+  150  sudo pip install --upgrade pip
+  151  pip
+  152  pip install urllib3
+  153  sudo zypper install python-pip
+  154  sudo zypper remove python-pip
+  155  sudo zypper install python-pip
+  156  pip install pygt2
+  157  pip install pygit2
+  158  sudo pip install pygit2
+  159  pip
+  160  sudo pip
+  161  sudo zypper install python-devel
+  162  sudo zypper install python-dev
+  163  sudo zypper search python-dev
+  164  sudo zypper search python-devel
+  165  sudo zypper repos add https://build.opensuse.org/package/show/home%3Asmarty12%3APython/python-dev
+  166  sudo zypper install python-devel
+  167  sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/python:/Factory/openSUSE_12.2/devel:languages:python:Factory.repo
+  168  sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/python:/Factory/openSUSE_12_SP3/devel:languages:python:Factory.repo
+  169  sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/python:/Factory/openSUSE_12.3/devel:languages:python:Factory.repo
+  170  zypper search python-devel
+  171  sudo zypper search python-devel
+  172  sudo zypper ar http://download.opensuse.org/repositories/openSUSE:/infrastructure/SLE_12_SP3/src/salt-2017.7.2-99.1.src.rpm.meta4
+  173  sudo zypper search python
+  174  sudo zypper repos
+  175  sudo zypper
+  176  SUSEConnect --list-extensions
+  177  sudo SUSEConnect --list-extensions
+  178  SUSEConnect -p sle-sdk/12.3/x86_64
+  179  sudo SUSEConnect -p sle-sdk/12.3/x86_64
+  180  sudo zypper search python-devel
+  181  sudo zypper install python-devel
+  182  salt-master
+  183  sudo salt-master
+  184  sudo salt-master -l debug
+  185  sudo zypper install python-pygit2
+  186  pip install pygit2
+  187  sudo pip install pygit2
+  188  sudo zypper install cffi
+  189  sudo zypper install cffi-dev
+  190  sudo zypper install cffi-devel
+  191  sudo zypper install gcc
+  192  sudo zypper install python-cffi
+  193  sudo pip install cffi
+  194  sudo pip install pygit2
+  195  C_INCLUDE_PATH=/usr/include/python2.7
+  196  $ export C_INCLUDE_PATH
+  197  export C_INCLUDE_PATH
+  198  sudo pip install pygit2
+  199  sudo zypper install python-devel
+  200  sudo zypper install libpython-dev
+  201  sudo zypper install libpython-devel
+  202  sudo zypper remove python3
+  203  pip install
+  204  sudo pip install pygit2
+  205  sudo zypper install python-pip
+  206  sudo pip install pygit2
+  207  sudo zypper install python-pip
+  208  salt --versions-report
+  209  sudo zypper install python-pip
+  210  sudo pip install gitpython
+  211  sudo zypper remove python-pip
+  212  sudo zypper install python-pip
+  213  pip install gitpythone
+  214  pip install gitpython
+  215  sudo pip install gitpython
+  216  sudo salt-master --versions-report
+  217  salt-master
+  218  sudo salt-master
+  219  sudo pip install pygit2
+  220  sudo salt-master
+  221  sudo pip install chardet
+  222  sudo pip install urllib3 idna
+  223  sudo pip install chardet
+  224  sudo pip install chardet@3.0.2
+  225  sudo pip install chardet>=3.0.2
+  226  sudo pip install idna>=2.5
+  227  sudo pip install idna==2.5
+  228  sudo pip install urllib3==1.21.1
+  229  sudo pip install chardet>=3.0.2
+  230  sudo pip install pygit2
+  231  sudo salt-master
+  232  sudo pip uninstall pythongit
+  233  sudo pip uninstall gitpython
+  234  sudo salt-master
+  235  salt-master --versions-report
+  236  which python
+  237  which pip
+  238  pip install pygit2
+  239  sudo pip install pygit2
+  240  sudo pip install pygit2 --help
+  241  sudo pip install -U pygit2 --help
+  242  sudo pip install -U pygit2
+  243  wget https://github.com/libgit2/libgit2/archive/v0.27.0.tar.gz
+  244  wget https://github.com/libgit2/libgit2/archive/v0.27.0.tar.gz --no-check-certificate
+  245  tar xzf v0.27.0.tar.gz
+  246  cd libgit2-0.27.0/
+  247  cmake .
+  248  make
+  249  sudo make install
+  250  pip install pygit2
+  251  sudo pip install pygit2
+  252  sudo uninstall pygit2
+  253  sudo pip uninstall pygit2
+  254  sudo pip install pygit2
+  255  sudo salt-master
+  256  sudo salt-master --versions-report
+  257  python -c 'import pygit2'
+  258  sudo ldconfig
+  259  sudo zypper install ldconfig
+  260  sudo /sbin/ldconfig
+  261  python -c 'import pygit2'
+  262  export LDFLAGS="-Wl,-rpath='$LIBGIT2/lib',--enable-new-dtags $LDFLAGS"
+  263  sudo pip install pygit2
+  264  sudo python -c 'import pygit2'
+  265  sudo /sbin/service
+  266  sudo /sbin/service salt-master stop
+  267  sudo /sbin/service --status-all
+  268  sudo /sbin/service --status-all | grep salt-master
+  269  sudo salt-master --versions-report
+  270  sudo salt-master
+  271  sudo SUSEConnect --list-extensions
+  272  sudo SUSEConnect    -p sle-module-adv-systems-management/12/x86_64
+  273  sudo zypper search salt
+  274  sudo zypper search salt-master
+  275  sudo zypper remove salt-master salt salt-minion
+  276  sudo zypper update
+  277  sudo zypper install salt salt-minion salt-master
+  278  sudo salt-master
+  279  sudo /sbin/services salt-master start
+  280  sudo /sbin/service salt-master start
+  281  sudo salt-run fileserver.update
+  282  sudo salt-run fileserver.file_list
+  283  sudo salt-run fileserver.file_list saltenv=dev
+  284  sudo salt '*' test.ping
+  285  cat /etc/salt/master
+  286  sudo cat /etc/salt/master
+  287  exit
+  288  users
+  289  users --help
+  290  groups
+  291  cut -d: -f1 /etc/passwd
+  292  adduser
+  293  useradd
+  294  useradd --help
+  295  sudo useradd --help
+  296  sudo /sbin/useradd --help
+  297  sudo /bin/useradd --help
+  298  which useradd
+  299  adduser
+  300  which useradd
+  301  useradd
+  302  sudo /usr/sbin/useradd --help
+  303  exit
+  304  sudo systemctl enable salt-master.service
+  305  systemctl -h
+  306  systemctl -type=units
+  307  systemctl -t units
+  308  systemctl -t service
+  309  history
+  310  sudo systemctl start salt-master.service
+  311  systemctl -t service
+  312  systemctl start salt-minion.service
+  313  sudo systemctl start salt-minion.service
+  314  salt '*' test.ping
+  315  sudo salt '*' test.ping
+  316  ls
+  317  sudo cp ./master /etc/salt/
+  318  cd /etc
+  319  cd salt
+  320  cd ..
+  321  cd..
+  322  ls /etc/salt/
+  323  cat /etc/salt/master
+  324  sudo master /etc/salt/
+  325  sudo cp master /etc/salt/
+  326  sudo cp ./master /etc/salt/
+  327  sudo cp .\master /etc/salt/
+  328  sudo cp ./master /etc/salt/
+  329  ls
+  330  cd ~/
+  331  ls
+  332  sudo cp ./master /etc/salt/
+  333  sudo su
+  334  cd ~/
+  335  ls
+  336  sudo systemctl stop salt-minion.service
+  337  sudo systemctl start salt-minion.service
+  338  sudo systemctl stop salt-master.service
+  339  sudo systemctl start salt-master.service
+  340  sudo systemctl stop salt-master.service
+  341  systemctl -t service
+  342  sudo systemctl stop salt-minion.service
+  343  systemctl -t service
+  344  sudo systemctl start salt-minion.service
+  345  systemctl -t service
+  346  sudo systemctl stop salt-master.service
+  347  systemctl -t service
+  348  sudo systemctl start salt-master.service
+  349  journalctl -xe
+  350  sudo journalctl -xe
+  351  sudo systemctl stopt salt-master.service
+  352  sudo systemctl stop salt-master.service
+  353  sudo systemctl start salt-master.service
+  354  sudo journalctl -xe
+  355  cat /etc/salt/master
+  356  sudo cat /etc/salt/master
+  357  ls
+  358  sudo cp .\master /etc/salt/
+  359  ls
+  360  sudo cp ./master /etc/salt/
+  361  sudo cat /etc/salt/master
+  362  sudo systemctl stop salt-master.service
+  363  sudo systemctl start salt-master.service
+  364  sudo salt-key -L
+  365  sudo salt-run fileserver.update
+  366  salt-run fileserver.file_list saltenv=dev
+  367  sudo salt-run fileserver.file_list saltenv=dev
+  368  sudo salt-run fileserver.dir_list
+  369  sudo zypper install python-pygit2
+  370  sudo git status
+  371  sudo zypper install python-pygit2
+  372  sudo salt '*' saltutil.refresh_pillar
+  373  sudo salt-run fileserver.envs
+  374  git --version
+  375  sudo zypper install git-core git
+  376  git-core --version
+  377  sudo zypper install git
+  378  sudo salt-run fileserver.envs
+  379  sudo cat /etc/salt/master
+  380  sudo salt-run fileserver.envs
+  381  history
+  382  sudo zypper install python-pygit2
+  383  sudo zypper install git-core
+  384  sudo zypper install git
+  385  salt --versions-report
+  386  sudo zypper install pygit2
+  387  sudo zypper install python3-pip
+  388  salt --versions-report
+  389  sudo salt-run fileserver.envs
+  390  sudo pip3
+  391  sudo pip3 install --upgrade pip
+  392  sudo pip3 install pygit2
+  393  sudo pip3 uninstall pygit2
+  394  sudo pip3 install pygit2
+  395  sudo zypper install cmake python-dev python-pip libffi-dev libssh2-1-devzlib1g-dev libssl-dev pkg-config libhttp-parser-dev
+  396  history
+  397  sudo salt-run fileserver.envs
+  398  salt --versions-report
+  399  sudo pip
+  400  pip install GitPython
+  401  sudo pip install GitPython
+  402  sudo pip install pygit2
+  403  mkdir /tmp/libgit2
+  404  cd /tmp/libgit2
+  405  sudo wget https://github.com/libgit2/libgit2/archive/v0.27.4.tar.gz --no-check-certificate
+  406  sudo tar xzf v0.27.4.tar.gz
+  407  sudo wget https://github.com/libgit2/libgit2/archive/v0.27.4.tar.gz
+  408  sudo wget https://github.com/libgit2/libgit2/archive/v0.27.4.tar.gz --no-check-certificate
+  409  sudo tar xzf v0.27.4.tar.gz
+  410  cd libgit2-0.27.4
+  411  ls
+  412  sudo cmake .
+  413  sudo make
+  414  sudo make install
+  415  sudo zypper install python-pip libffi-dev python-cffi
+  416  sudo zypper install python-pip
+  417  sudo zypper install python-cffi
+  418  sudo zypper install libffi-devel
+  419  sudo pip3 uninstall pygit2
+  420  sudo pip3 install pygit2
+  421  sudo ldconfig
+  422  sudo zypper install python-cffi
+  423  sudo zypper install dos2unix
+  424  sudo zypper install pygit2
+  425  pygit2 --version
+  426  top
+  427  ps
+  428  sudo pip3 install pygit2
+  429  sudo zypper in python-devel
+  430  sudo zypper in python3-devel
+  431  salt --versions-report
+  432  sudo pip install pygit2
+  433  salt --versions-report
+  434  sudo pip install chardet
+  435  sudo pip install idna
+  436  sudo pip upgrade idna
+  437  sudo zypper install idna
+  438  python --version
+  439  pygit2 --version
+  440  python3 --version
+  441  sudo pip install idna
+  442  history
+  443  salt-run fileserver.envs
+  444  sudo salt-run fileserver.envs
+  445  sudo salt-run fileserver.update
+  446  salt-run fileserver.file_list saltenv=dev
+  447  sudo salt-run fileserver.file_list saltenv=dev
+  448  sudo salt-run fileserver.file_list saltenv=sit
+  449  cd ~/
+  450  salt-run fileserver.update
+  451  sudo salt-run fileserver.update
+  452  sudo salt-run fileserver.file_list saltenv=dev
+  453  ls
+  454  cat ./master
+  455  sudo cp .\master /etc/salt/
+  456  sudo cp ./master /etc/salt/
+  457  sudo cat /etc/salt/master
+  458  systemctl restart salt-master.service
+  459  sudo systemctl restart salt-master.service
+  460  sudo salt-run fileserver.file_list saltenv=dev
+  461  sudo salt-run fileserver.file_list saltenv=sit
+  462  sudo salt-run fileserver.update
+  463  sudo salt-run fileserver.file_list saltenv=qa1
+  464  salt --versions-report
+  465  sudo salt-run fileserver.file_list saltenv=dev
+  466  sudo salt-run fileserver.file_list saltenv=sit
+  467  sudo salt-run fileserver.file_list saltenv=qa1
+  468  sudo salt-run fileserver.list_env
+  469  sudo salt-run fileserver.envs
+  470  cat ./master
+  471  salt-run pillar.show_pillar pillarenv=dev
+  472  sudo salt-run pillar.show_pillar pillarenv=dev
+  473  sudo salt-run pillar.show_pillar pillarenv=sit
+  474  sudo salt-run pillar.show_pillar pillarenv=qa1
+  475  ipconfig
+  476  ifconfig
+  477  sudo ifconfig
+  478  sudo su
+  479  salt-run fileserver.dir_list
+  480  sudo salt-run fileserver.dir_list
+  481  history
+  482  zypper repos
+  483  systemctl repos
+  484  sudo salt-run --versions-report
+  485  sudo salt-run fileserver.update
+  486  sudo salt-run fileserver.file_list
+  487  sudo cat /etc/salt/master
+  488  sudo salt-key -L
+  489  gpg --version
+  490  sudo gpg --list-keys
+  491  sudo gpg --list-secret-keys
+  492  sudo --homedir /etc/salt/gpgkeys --list-keys
+  493  sudo --homedir /etc/salt/gpgkeys/ --list-keys
+  494  cd /etc
+  495  cd salt
+  496  sudo su
+  497  dig ftp3.assurant.com
+  498  ping atl0leftp001.atl0.assurant.com
+  499  ssh atl0leftp001.atl0.assurant.com
+  500  exit
+  501  sudo salt-key -l
+  502  sudo salt-key -L
+  503  sudo salt-key -A
+  504  salt 'QA1*' test.ping
+  505  sudo salt 'QA1*' test.ping
+  506  sudo salt 'QA1*' test.ping --timeout=90
+  507  time sudo salt 'QA1*' test.ping --timeout=90
+  508  time salt /* test.ping --timeout=90
+  509  sudo time salt /* test.ping --timeout=90
+  510  sudo time salt \* test.ping --timeout=90
+  511  sudo time salt '*' test.ping --timeout=90
+  512  sudo salt -G 'role:rmclient' test.ping --timeout=90
+  513  sudo salt 'QA*' grain.items --timeout=90
+  514  sudo salt 'QA*' grains.items --timeout=90
+  515  sudo salt -G 'role:rm-client' test.ping --timeout=90
+  516  sudo salt -G 'roles:rm-client' test.ping --timeout=90
+  517  sudo salt -G 'roles:rm-client' disk.usage --timeout=90
+  518  sudo salt -G 'roles:rm-client' disk.iostat --timeout=90
+  519  sudo salt -G 'roles:rm-client' system.diskstats --timeout=90
+  520  sudo salt -G 'roles:rm-client' status.diskstats --timeout=90
+  521  sudo salt -G 'roles:rm-client' status.uptime --timeout=90
+  522  sudo salt -G 'roles:rm-client' cmd.run 'typeperf -si 2 "\LogicalDisk(_Total)\Disk Bytes/sec"' --timeout=90
+  523  ls
+  524  sudo gpg --list-secret-keys
+  525  sudo gpg --list-keys
+  526  cd /.ssh
+  527  ls -al
+  528  sudo su
+  529  ls -la
+  530  cd .ssh
+  531  ls
+  532  cat authorized_keys
+  533  cd ..
+  534  sudo salt-run pillar.show_items pillarenv=dev
+  535  sudo salt-run pillar.show_item pillarenv=dev
+  536  sudo salt-run pillars.show_item pillarenv=dev
+  537  sudo salt-run pillar.items_show pillarenv=dev
+  538  sudo salt-run pillar.items pillarenv=dev
+  539  sudo salt-run pillar.show_pillar pillarenv=dev
+  540  ls
+  541  sudo su
+  542  ls
+  543  ls -al
+  544  cd /etc
+  545  ls
+  546  cd gnupg
+  547  ls
+  548  cd ..
+  549  cd ~/
+  550  sudo gpg --list-keys
+  551  cd /root
+  552  sudo su
+  553  sudo ifconfig
+  554  ifconfig
+  555  sudo su
+  556  sudo salt-key -L
+  557  sudo salt-run pillar.pillar_show pillarenv=dev
+  558  sudo salt-run pillar.item_show pillarenv=dev
+  559  sudo salt-run pillar.show_pillar pillarenv=dev
+  560  sudo salt-run state.event pretty=True
+  561  sudo cat /etc/salt/master
+  562  sudo salt 'Dev*' test.ping
+  563  sudo salt 'Dev*' test.ping --timeout=90
+  564  sudo salt-call state.event pretty=True
+  565  sudo salt 'Dev*' test.ping
+  566  sudo salt 'Dev*' test.ping -debug
+  567  sudo salt 'Dev*' test.ping -l debug
+  568  sudo salt 'Dev*' test.ping -debug
+  569  sudo salt 'Dev*' test.ping -l debug
+  570  sudo cat /etc/salt/master
+  571  sudo salt-key -L
+  572  sudo salt 'Dev*' test.ping -l debug
+  573  sudo salt 'Dev*' test.ping
+  574  sudo su
+  575  sudo salt 'Dev*' test.ping
+  576  cd /services
+  577  cd /etc/services
+  578  cd etc
+  579  cd /etc
+  580  ls
+  581  ls -la
+  582  cd services
+  583  sudo cat services
+  584  sudo systemctl -t services
+  585  sudo systemctl -t service
+  586  sudo systemctl -t service --help
+  587  sudo systemctl -t service -a
+  588  sudo systemctl -t service --help
+  589  sudo systemctl -t service --list-sockets
+  590  sudo systemctl -t service list-sockets
+  591  sudo systemctl -t service list-sockets --
+  592  sudo systemctl -t service list-sockets -a
+  593  netstat -na | grep 30506
+  594  netstat -na | grep 30505
+  595  sudo su
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd ~/
+  600  ls
+  601  cat master
+  602  sudo cp ./master /etc/salt/
+  603  sudo cat /etc/salt/master
+  604  history
+  605  sudo systemctl stop salt-master.service
+  606  sudo systemctl start salt-master.service
+  607  sudo su
+  608  sudo salt 'Dev*' test.ping
+  609  sudo salt 'Dev*' test.ping --timeout=90
+  610  sudo su
+  611  sudo salt 'Dev*' test.ping
+  612  sudo su
+  613  sudo salt 'Dev*' test.ping --timeout=90
+  614  sudo su
+  615  sudo salt-run pillar.show_pillar pillarenv=dev
+  616  gpg --list-keys
+  617  cd /etc
+  618  cd ~/
+  619  mkdir -p /etc/salt/gpgkeys
+  620  sudo su
+  621  ls
+  622  ls -al
+  623  sudo .ssh
+  624  sudo cd /.ssh
+  625  sudo su
+  626  ls -ls
+  627  ls -la
+  628  sudo cd /.ssh
+  629  ls /.shh
+  630  sudo cd /.ssh
+  631  sudo cd .ssh
+  632  sudo su
+  633  cd ~/ssh
+  634  cd ~/.ssh
+  635  ls
+  636  ls -la
+  637  ls
+  638  salt-key
+  639  sudo salt-key
+  640  sudo salt '*' test.ping
+  641  sudo salt '*' test.ping --timeout=90
+  642  sudo salt 'QA*' test.ping --timeout=90
+  643  time sudo salt 'QA*' test.ping --timeout=90
+  644  exit
+  645  sudo salt 'Dev*' test.ping --timeout=90
+  646  cd /etc
+  647  cd salt
+  648  sudo su
+  649  ls
+  650  cd ~/
+  651  ls
+  652  sudo su
+  653  ls
+  654  cd /.ssh
+  655  ls -al
+  656  ls
+  657  sudo su
+  658  sudo salt-run pillar.show_pillar pillarenv=dev
+  659  sudo salt-run pillar.show_pillar pillarenv=sit
+  660  cls
+  661  history
+  662  sudo su
+  663  sudo salt-run 'Dev*' test.ping --timeout=90
+  664  sudo salt 'Dev*' test.ping --timeout=90
+  665  alsjdaljskldjaklsdjklajsd
+  666  \
+  667  sudp su
+  668  ls
+  669  exit
+  670  ls
+  671  sudo salt-key
+  672  sudo salt 'QA*' test.ping
+  673  sudo salt 'QA*' grains.items
+  674  sudo salt 'QA*' grains.items roles
+  675  sudo salt 'QA*' grains.item roles
+  676  sudo salt -G 'roles:rm-clent' grains.item roles
+  677  sudo salt -G 'roles:rm-client' grains.item roles
+  678  sudo salt -G 'roles:rm-client' disk.usage
+  679  exit
+  680  sudo salt 'Dev-webapi*' test.ping --timeout=90
+  681  sudo salt 'Dev*' test.ping --timeout=90
+  682  sudo salt 'Dev-wcf*' test.ping --timeout=90
+  683  sudo salt 'Dev*' test.ping --timeout=90
+  684  sudo salt 'Dev-etl*' test.ping --timeout=90
+  685  ls
+  686  sudo salt '*' test.ping
+  687  ls
+  688  sudo salt 'QA*' test.ping
+  689  sudo salt 'QA*' test.ping --timeout=90
+  690  sudo salt 'QA*' grains.item roles --timeout=90
+  691  sudo salt '*' test.ping --timeout=90
+  692  exit
+  693  sudo salt 'Dev*' test.ping --timeout=90
+  694  sudo salt 'Dev-neuron*' test.ping --timeout=90
+  695  sudo salt 'Dev*' test.ping --timeout=90
+  696  sudo salt 'SIT*' test.ping --timeout=90
+  697  sudo salt-key -L
+  698  sudo salt-key -A
+  699  sudo salt-key -L
+  700  sudo salt-key -A
+  701  sudo salt-key "SIT*" -L
+  702  sudo salt-key 'SIT*' -L
+  703  sudo salt-key -A
+  704  sudo salt-
+  705  sudo salt-key -L
+  706  sudo salt-key -A
+  707  sudo salt-key -d Dev-kofaxweb-01
+  708  sudo salt-key -d QA1-*-01
+  709  sudo salt-key -L
+  710  sudo salt-key -A
+  711  sudo salt-key -L
+  712  sudo salt 'Dev*' test.ping --timeout=90
+  713  sudo salt 'SIT*' test.ping --timeout=90
+  714  sudo salt 'SIT-ods*' test.ping --timeout=90
+  715  sudo salt-key -d 'SIT-ods*'
+  716  sudo salt-key -L
+  717  sudo salt-key -a
+  718  sudo salt-key -A
+  719  sudo salt-key -L
+  720  sudo salt 'SIT-ods*' test.ping --timeout=90
+  721  sudo salt 'SIT' test.ping --timeout=90
+  722  sudo salt 'SIT*' test.ping --timeout=90
+  723  sudo salt 'Dev*' test.ping --timeout=90
+  724  sudo salt 'Dev-kofax*' test.ping --timeout=90
+  725  sudo salt 'QA1*' test.ping --timeout=90
+  726  sudo salt 'Dev*' test.ping --timeout=90
+  727  sudo salt 'SIT*' test.ping --timeout=90
+  728  salt 'QA*' test.ping
+  729  sudo salt 'QA*' test.ping
+  730  sudo salt 'QA*' test.ping --timeout=90
+  731  sudo salt 'QA*' grains.items
+  732  sudo salt 'QA*' grains.items --timeout-90
+  733  sudo salt 'QA*' grains.items --timeout=90
+  734  sudo time salt -l trace '*' test.ping
+  735  sudo time salt -l trace 'QA*' test.ping
+  736  sudo time salt -l trace 'QA*' test.ping --timeout=90
+  737  sudo time salt 'QA*' test.ping --timeout=90
+  738  sudo salt 'QA*' test.ping --timeout=90
+  739  sudo salt '*' test.ping --timeout=90
+  740  sudo salt 'Dev*' test.ping --timeout=90
+  741  sudo salt 'Dev*' test.ping
+  742  sudo salt 'Dev*' grains.item host
+  743  sudo salt 'Dev*' test.ping
+  744  sudo salt 'Dev*' test.ping --async
+  745  sudo salt-run jobs.active
+  746  sudo salt-run jobs.lookup_jid 20181108204127264823
+  747  sudo salt '*' schedule.list
+  748  sudo salt '*' test.ping
+  749  salt 'Dev-informatica-01' schedule.add function='test.ping' seconds=90
+  750  sudo salt 'Dev-informatica-01' schedule.add function='test.ping' seconds=90
+  751  sudo salt 'Dev-informatica-01' schedule.add ping_job function='test.ping' seconds=90
+  752  sudo salt 'Dev-informatica-01' schedule.list
+  753  sudo salt 'Dev-informatica-01' schedule.list show_all=True
+  754  sudo salt 'Dev-informatica-01' schedule.run_job ping_job
+  755  sudo salt-run jobs.active
+  756  sudo salt-run jobs.ist_job
+  757  sudo salt-run jobs.list_job
+  758  sudo salt-run jobs.list_jobs
+  759  sudo salt-run jobs.list_job 20181108205025919232
+  760  exit
+  761  sudo salt 'Dec*' test.ping --timeout=90
+  762  sudo salt 'Dev*' test.ping --timeout=90
+  763  sudo salt 'Dev-wcf*' test.ping --timeout=90
+  764  sudo salt 'SIT*' test.ping --timeout=90
+  765  sudo salt 'SIT-least*' test.ping --timeout=90
+  766  sudo salt 'SIT-elast*' test.ping --timeout=90
+  767  sudo salt 'SIT-etl-01' test.ping --timeout=90
+  768  sudo salt 'SIT-kofax*' test.ping --timeout=90
+  769  sudo salt-key -L
+  770  sudo salt 'SIT-kofax-01' test.ping --timeout=90
+  771  sudo salt 'SIT-kofaxweb-01' test.ping --timeout=90
+  772  sudo salt 'SIT-wcf-01' test.ping --timeout=90
+  773  sudo salt 'SIT-wcf-01' test.ping --timeout=90 -l debug
+  774  sudo salt 'SIT-kofaxweb-01' test.ping --timeout=90 -l debug
+  775  sudo salt 'SIT-*' test.ping --timeout=90 -l debug
+  776  sudo salt 'SIT-info*' test.ping --timeout=90 -l debug
+  777  sudo salt-run cache.list minions
+  778  sudo salt 'Dev-webapi*' test.ping --timeout=90
+  779  sudo salt 'Dev*' test.ping
+  780  sudo salt 'SIT*' test.ping
+  781  sudo salt '*' test.ping
+  782  sudo salt 'SIT*' test.ping
+  783  sudo salt 'Dev*' test.ping
+  784  sudo salt 'Dev-wcf*' test.ping
+  785  sudo salt 'Dev-wcf*' test.ping --timeout=90
+  786  sudo salt 'Dev-wcf*' test.ping
+  787  sudo salt 'Dev*' test.ping
+  788  sudo salt 'SIT*' test.ping
+  789  sudo salt 'QA1*' test.ping
+  790  sudo salt 'QA1*' test.ping --timeout=90
+  791  sudo salt-key -L
+  792  sudo salt-key -A
+  793  sudo salt-key -L
+  794  sudo salt 'QA1*' test.ping --timeout=90
+  795  salt-master --version
+  796  sudo salt-key -d QA1-etl-01
+  797  sudo salt-key -L
+  798  sudo salt-key -A
+  799  sudo salt 'QA1*' test.ping --timeout=90
+  800  sudo salt 'QA1-etl-01' test.ping --timeout=90
+  801  salt-run jobs.lookup_jid 20181109145841764959
+  802  sudo salt 'QA1-etl-01' test.ping --timeout=90
+  803  ls
+  804  cd /etc/salt
+  805  sudo salt-run jobs.lookup_jid 20181109145841764959
+  806  sudo salt 'QA1-etl-01' test.ping --timeout=90
+  807  sudo salt-run jobs.lookup_jid 20181109150314560806
+  808  sudo salt-key -d QA1-etl-01
+  809  sudo salt-key -L
+  810  sudo salt-key -A
+  811  sudo salt 'QA1-etl*' test.ping
+  812  sudo salt 'QA1-etl*' test.ping --timeout=90
+  813  sudo salt-run jobs.lookup_jid 20181109150757604607
+  814  sudo salt 'QA1-etl*' test.ping --timeout=90
+  815  cd /etc
+  816  cd salt
+  817  sudo su
+  818  sudo salt-run 'Dev-etl-01' grains.show_grains
+  819  sudo salt-run grains.show_grains
+  820  cd..
+  821  sudo salt 'QA1*' test.ping
+  822  sudo salt-key -L
+  823  sudo salt-key -d QA1-etl-01
+  824  sudo salt-key -L
+  825  sudo salt-key -A
+  826  sudo salt 'QA1*' test.ping
+  827  sudo salt 'QA1-etl-01' test.ping --timeout=90
+  828  sudo salt 'Dev*' test.ping
+  829  sudo salt 'SIT*' test.ping
+  830  sudo salt 'Dev*' test.ping --timeout=90
+  831  sudo salt-run pillar.show_pillar pillarenv=dev
+  832  sudo salt 'Dev*' test.ping --timeout=90
+  833  sudo salt 'Dev-aut*' test.ping --timeout=90
+  834  sudo salt 'Dev*' test.ping --timeout=90
+  835  sudo salt 'Dev*' test.ping
+  836  sudo salt 'SIT*' test.ping
+  837  sudo salt 'SIT-wcf*' test.ping
+  838  sudo salt 'SIT*' test.ping
+  839  sudo salt 'Dev*' test.ping
+  840  sudo salt 'SIT*' test.ping
+  841  sudo salt 'QA1*' test.ping
+  842  sudo salt 'QA1-etl*' test.ping
+  843  sudo salt 'QA1-etl*' test.ping --timeout=90
+  844  sudo salt 'QA1-etl-01' test.ping --timeout=90
+  845  sudo salt 'QA1-etl*' test.ping --timeout=90
+  846  sudo salt 'QA1-elast*' test.ping --timeout=90
+  847  sudo salt 'QA1-*' test.ping --timeout=90
+  848  sudo salt 'QA1-elastic*' test.ping --timeout=90
+  849  sudo salt 'QA1-elastic-*' test.ping --timeout=90
+  850  sudo salt-key -L
+  851  sudo salt-key -d QA1*
+  852  sudo salt-key -L
+  853  sudo salt-key -d QA1*
+  854  sudo salt-key -L
+  855  sudo salt-key -A
+  856  sudo salt-key -L
+  857  sudo salt-key -A
+  858  sudo salt-key -L
+  859  sudo salt 'QA1*' test.ping
+  860  sudo salt 'QA1-wcf-01' test.ping
+  861  sudo salt 'QA1*' test.ping
+  862  sudo salt 'QA1*' test.ping --timeout=90
+  863  sudo salt 'Dev*' test.ping
+  864  sudo salt 'SIT*' test.ping
+  865  sudo salt 'QA1*' test.ping
+  866  ipcpnfig
+  867  ipconfig
+  868  ifconfig
+  869  sudo ifconfig
+  870  ifconfig
+  871  sudo su
+  872  cd /etc
+  873  cd salt
+  874  cat /etc/salt/master
+  875  sudo su
+  876  salt-cloud
+  877  sudo salt-cloud
+  878  sudo zypper
+  879  sudo zypper install salt-cloud
+  880  salt-cloud
+  881  sudo salt-cloud
+  882  sudo salt '*' test.ping
+  883  time salt '*' test.ping
+  884  sudo time salt '*' test.ping
+  885  salt '*' test.ping
+  886  sudo salt '*' test.ping
+  887  sudo salt '*' grains.items
+  888  sudo salt '*' grains.item os_family
+  889  curl -v --head https://intra.ssp-api-workforce-sit.assurant.com/workforce/api/heartbeat
+  890  curl -v --head https://intra.ssp-api-workforce-sit.assurant.com/workforce/api
+  891  curl -v https://intra.ssp-api-workforce-sit.assurant.com/workforce/api
+  892  curl -v https://intra.ssp-api-workforce-sit.assurant.com/workforce/apiclear
+  893  curl  https://intra.ssp-api-workforce-sit.assurant.com/workforce/apiclear
+  894  curl  https://intra.ssp-api-workforce-sit.assurant.com/workforce/api
+  895  curl  https://intra.ssp-api-workforce-sit.assurant.com/workforce/api-v
+  896  curl  https://intra.ssp-api-workforce-sit.assurant.com/workforce/api -v
+  897  sudo salt 'Dev' test.ping
+  898  sudo salt 'Dev*' test.ping
+  899  sudo salt 'Dev*' grains.item
+  900  sudo salt 'Dev*' grains.items
+  901  sudo salt 'Dev*' test.ping
+  902  sudo salt 'SIT*' test.ping
+  903  sudo salt 'QA1*' test.ping
+  904  sudo salt 'QA1-webapi-03 test.ping
+  905  sudo salt 'QA1-webapi-03' test.ping
+  906  sudo salt 'QA1-webapi-03' test.ping --timeout=90
+  907  sudo salt-ssh 'Dev*' -i test.ping
+  908  sudo salt 'Dev*' test.version
+  909  sudo salt 'SIT*' test.version
+  910  sudo salt 'QA1*' test.version
+  911  sudo salt 'QA1*' manage.version
+  912  sudo salt 'Dev*' test.ping
+  913  sudo salt 'Dev*' test.ping --timeout=90
+  914  ls
+  915  sudo su
+  916  salt-cloud
+  917  sudo salt-cloud
+  918  sudo salt 'Dev*' test.ping
+  919  sudo salt 'SIT*' test.ping
+  920  sudo salt 'QA1*' test.ping
+  921  sudo salt 'Dev*' version
+  922  sudo salt 'Dev*' test.version
+  923  sudo salt-cloud -a show_instance 'Dev*'
+  924  sudo salt 'Dev*' test.ping
+  925  sudo salt 'QA2*' test.ping
+  926  sudo su
+  927  salt
+  928  salt --version
+  929  whcih salt
+  930  which
+  931  which salt
+  932  cd /usr/bin
+  933  cd salt
+  934  cat salt
+  935  ls
+  936  clear
+  937  salt --hosts
+  938  clear
+  939  salt --list
+  940  history
+  941  exit
+  942  salt '*' test.ping
+  943  sudo
+  944  su salt '*' test.ping
+  945  sudo salt '*' test.ping
+  946  salt-key -L
+  947  sudo salt-key -L
+  948  sudo salt-key -a
+  949  sudosudosud
+  950  sudo salt-key -a
+  951  sudo salt '*' test.ping
+  952  sudo salt-key -L
+  953  sudo salt-key -A
+  954  sudo salt '*' test.ping
+  955  salt '*tfs*' test.ping
+  956  sudo salt '*tfs*' test.ping
+  957  sudo salt '*' test.ping
+  958  sudo salt 'MDL*' test.ping
+  959  sudo salt 'MDL*' grains.items
+  960  sudo salt '*' test.ping
+  961  sudo salt -G  'build' test.ping
+  962  sudo salt -G  'roles:build' test.ping
+  963  sudo salt -G  'role:build' test.ping
+  964  sudo salt 'DEV-*' test.ping
+  965  sudo salt 'Dev-*' test.ping
+  966  sudo salt 'Dev-webapi' grains.items
+  967  sudo salt 'Dev-webapi*' grains.items
+  968  sudo salt 'Dev-webapi*' iis.list_apps
+  969  sudo salt 'Dev-webapi*' win_iis.list_apps
+  970  sudo salt 'Dev-webapi*' win_iis.list_apps SSP.Web
+  971  sudo salt 'Dev-webapi*' win_iis.list_apps SSP.Web | clip
+  972  exit
+  973  sudo salt 'BUILD*' test.ping
+  974  sudo salt 'B*' test.ping
+  975  sudo salt 'B*' disk.usage
+  976  sudo salt '*' test.ping
+  977  exit
+  978  salt-ssh -i '*' test.ping
+  979  salt '*' test.ping
+  980  sudo salt '*' test.ping
+  981  sudo salt-ssh -i '*' test.ping
+  982  ls
+  983  cd /etc
+  984  cd salt
+  985  sudo salt
+  986  sudo cat salt
+  987  sudo cd salt
+  988  sudo sh -c "cd salt"
+  989  sudo cd salt
+  990  ifconfig
+  991  sudo ifconfig
+  992  sudo ipconfig
+  993  clear
+  994  su -
+  995  sudo su -
+  996  exit
+  997  sudo su -
+  998  history

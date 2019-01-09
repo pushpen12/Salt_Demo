@@ -1,0 +1,27 @@
+    //Lets define a unique label for this build.
+   // def kubeLabel = "buildpod.${env.JOB_NAME}.${env.BUILD_NUMBER}".replace('-', '_').replace('/', '_')
+
+pipeline {
+    options {
+       
+        timeout( time:10, unit: 'MINUTES' )
+    }
+    agent {
+        kubernetes {
+            label 'salt-ssh-container'
+            yamlFile '.ci/pods.yaml'
+        }
+    }
+        stages {
+            
+            stage('Build Container for Pull Request or Feature Branch') {
+                steps {
+                    container(name: 'docker-builder', shell: '/busybox/sh' ){
+                        sh readFile('.ci/scripts/buildcontainer.sh')
+                    }
+                }
+            }
+        }
+        // failure should go here       
+}
+

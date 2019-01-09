@@ -1,0 +1,124 @@
+atl0lsmsp001:/etc/salt # cat master.rpmsave
+  worker_threads: 1
+  fileserver_backend:
+    - git
+
+  publish_port: 30505
+  keysize: 2048
+  ret_port: 30506
+
+  gitfs_password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+  gitfs_user: "salt-master-pat"
+
+  gitfs_remotes:
+    - https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-topfile:
+      - base: master
+    - https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-states:
+      - base: master
+      - disable_saltenv_mapping: false
+      - saltenv:
+          - dev:
+              ref: master
+
+
+  ext_pillar:
+    - git:
+      - origin/dev  https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-pillar:
+        - user: "salt-master-pat"
+        - password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+        - env: dev
+      - origin/qa1  https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-pillar:
+        - user: "salt-master-pat"
+        - password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+        - env: qa1
+      - origin/sit  https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-pillar:
+        - user: "salt-master-pat"
+        - password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+        - env: sit
+
+
+  reactor:
+    - assurant/encore/ssp/web/deploy:
+      - salt://reactor/deploy.sls
+    - salt/netapi/hook/assurant/encore/ssp/*/deploy:
+      - salt://reactor/deploycontext.sls
+    - salt/netapi/hook/assurant/encore/ssp/configure:
+      - salt://reactor/config.sls
+
+
+  reactor_worker_hwm: 10000
+  external_auth:
+    pam:
+      encore-ssp-salt-user:
+        - .*
+        - '@wheel'
+        - '@runner'
+        - '@jobs'
+  rest_cherrypy:
+    port: 8000
+    disable_ssl: true
+    webhook_disable_auth: True
+    webhook_url: /hook
+
+
+    atl0lsmsp001:/etc/salt # cat master
+  worker_threads: 1
+  fileserver_backend:
+    - git
+
+  publish_port: 30505
+  keysize: 2048
+  ret_port: 30506
+
+  gitfs_password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+  gitfs_user: "salt-master-pat"
+
+  gitfs_remotes:
+    - https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-topfile:
+      - base: master
+    - https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-states:
+      - base: master
+      - disable_saltenv_mapping: false
+      - saltenv:
+          - dev:
+              ref: master
+
+
+  ext_pillar:
+    - git:
+      - origin/dev  https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-pillar:
+        - user: "salt-master-pat"
+        - password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+        - env: dev
+      - origin/qa1  https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-pillar:
+        - user: "salt-master-pat"
+        - password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+        - env: qa1
+      - origin/sit  https://aiz-alm.visualstudio.com/GlobalHome%20-%20SSP/_git/devservices-config-salt-pillar:
+        - user: "salt-master-pat"
+        - password: "va3xo72gfdb6rilf5w3mjvr7rowdw4nj2twi7ee5g4vlqkyrdeiq"
+        - env: sit
+
+
+  reactor:
+    - assurant/encore/ssp/web/deploy:
+      - salt://reactor/deploy.sls
+    - salt/netapi/hook/assurant/encore/ssp/*/deploy:
+      - salt://reactor/deploycontext.sls
+    - salt/netapi/hook/assurant/encore/ssp/configure:
+      - salt://reactor/config.sls
+
+
+  reactor_worker_hwm: 10000
+  external_auth:
+    pam:
+      encore-ssp-salt-user:
+        - .*
+        - '@wheel'
+        - '@runner'
+        - '@jobs'
+  rest_cherrypy:
+    port: 8000
+    disable_ssl: true
+    webhook_disable_auth: True
+    webhook_url: /hook
